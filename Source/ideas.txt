@@ -1,0 +1,10 @@
+Ideas.txt
+22.09.2018
+- Create a grid where the current sprite moves over the gred, when it collides with a grid-block change the colour to the player-colours block.
+- Only when the top left of the sprite collides with the top left of the grid space does it change colour (this ensures the grid doesnt change colour before the block has completely covered the
+	area.)
+- Only allow the player to move on a direction divisible by 16. Any offset will mean the sprite never collides correctly with the grid points.
+
+24/09/2018
+- move line every 12 pixels, if sprite position - grid offset = %24 then they can move.
+- set line spriute to trail sprite - the difference of the line sprite and trail sprite.

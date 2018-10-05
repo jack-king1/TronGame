@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TronGame"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="H:/University/Github/TronGame/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/University/Github/TronGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/University/Github/TronGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/University/Github/TronGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/University/Github/TronGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TronGame">
+				<Option output="H:/University/Github/TronGame/cmake-build-debug/TronGame.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="H:/University/Github/TronGame/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="H:/University/Github/TronGame/Libs"/>
+					<Add directory="H:/University/Github/TronGame/Libs/ASGE"/>
+					<Add directory="H:/University/Github/TronGame/Libs/ASGE/Include"/>
+					<Add directory="H:/University/Github/TronGame/Libs/ASGE/Include/Engine"/>
+					<Add directory="H:/University/Github/TronGame/Source"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/University/Github/TronGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 TronGame"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/University/Github/TronGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/University/Github/TronGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/University/Github/TronGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TronGame/fast">
+				<Option output="H:/University/Github/TronGame/cmake-build-debug/TronGame.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="H:/University/Github/TronGame/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="H:/University/Github/TronGame/Libs"/>
+					<Add directory="H:/University/Github/TronGame/Libs/ASGE"/>
+					<Add directory="H:/University/Github/TronGame/Libs/ASGE/Include"/>
+					<Add directory="H:/University/Github/TronGame/Libs/ASGE/Include/Engine"/>
+					<Add directory="H:/University/Github/TronGame/Source"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/University/Github/TronGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 TronGame/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/University/Github/TronGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/University/Github/TronGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/University/Github/TronGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="H:/University/Github/TronGame/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/University/Github/TronGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/University/Github/TronGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/University/Github/TronGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/University/Github/TronGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="H:/University/Github/TronGame/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/University/Github/TronGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/University/Github/TronGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/University/Github/TronGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/University/Github/TronGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="H:/University/Github/TronGame/Libs/ASGE/Include/Engine/Colours.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Libs/ASGE/Include/Engine/Font.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Libs/ASGE/Include/Engine/Game.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Libs/ASGE/Include/Engine/GameTime.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Libs/ASGE/Include/Engine/Gamepad.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Libs/ASGE/Include/Engine/Input.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Libs/ASGE/Include/Engine/InputEvents.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Libs/ASGE/Include/Engine/KeyIndex.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Libs/ASGE/Include/Engine/Keys.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Libs/ASGE/Include/Engine/Mouse.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Libs/ASGE/Include/Engine/NonCopyable.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Libs/ASGE/Include/Engine/OGLGame.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Libs/ASGE/Include/Engine/Platform.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Libs/ASGE/Include/Engine/Renderer.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Libs/ASGE/Include/Engine/Sprite.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Libs/ASGE/Include/Engine/Texture.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Libs/ASGE/Include/Engine/Value.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Source/Actions.cpp">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Source/Actions.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Source/Game.cpp">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Source/Game.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Source/GameObject.cpp">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Source/GameObject.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Source/GameScene.cpp">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Source/GameScene.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Source/Line.cpp">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Source/Line.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Source/MenuScene.cpp">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Source/MenuScene.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Source/Rect.cpp">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Source/Rect.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Source/Scene.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Source/SpriteComponent.cpp">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Source/SpriteComponent.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Source/Vector2.cpp">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Source/Vector2.h">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/Source/main.cpp">
+			<Option target="TronGame"/>
+		</Unit>
+		<Unit filename="H:/University/Github/TronGame/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

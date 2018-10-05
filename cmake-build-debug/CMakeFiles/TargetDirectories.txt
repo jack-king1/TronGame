@@ -1,0 +1,3 @@
+H:/University/Github/TronGame/cmake-build-debug/CMakeFiles/TronGame.dir
+H:/University/Github/TronGame/cmake-build-debug/CMakeFiles/edit_cache.dir
+H:/University/Github/TronGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
